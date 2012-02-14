@@ -1,7 +1,7 @@
 AuthMod
 =======
 
-This is a Bukkit plugin that in conjunction with the AuthMod client mod authenticates users on a server based on an RSA certificate. This is useful if passwords of Minecraft users are compromised on your server, especially high-level staff.
+This is a Bukkit plugin that, in conjunction with the AuthMod client mod, authenticates users on a server with use of an RSA certificate. This is useful if passwords of Minecraft users are compromised on your server, especially high-level staff.
 
 
 Setting up AuthMod
