@@ -1,7 +1,7 @@
 name: AuthMod
 main: com.connor.authmod.AuthMod
-version: 1.0 (Schoko edition)
+version: 1.0
 permissions:
     auth.required:
-        description: Requires a player to have AuthMod installed
-        default: op
+        description: Requires a player to use AuthMod to connect
+        default: false
