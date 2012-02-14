@@ -24,7 +24,7 @@ public class AuthMod extends JavaPlugin {
     public void onEnable() {
         if (!initKeys()) return; //Initialize the private and public keys
 
-        //Event registry
+        //Event registration
         getServer().getPluginManager().registerEvents(new AuthModLogin(this), this);
         getServer().getPluginManager().registerEvents(lockdownd, this);
 
