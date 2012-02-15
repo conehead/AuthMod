@@ -21,7 +21,7 @@ public class AuthModLockdownd implements Listener {
     public void addPlayer(Player player) {
         //Add player to the list and set to autokick in five seconds if they don't authenticate
         lockdownPlayers.add(player.getName());
-        plugin.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new AuthAutoKick(player), 100);
+        plugin.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new AuthAutoKick(player), 60);
     }
     
     public void removePlayer(Player player) {
