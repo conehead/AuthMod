@@ -1,6 +1,6 @@
 name: AuthMod
 main: com.connor.authmod.AuthMod
-version: 1.0
+version: 1.1
 permissions:
     auth.required:
         description: Requires a player to use AuthMod to connect
